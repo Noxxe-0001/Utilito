@@ -3,7 +3,7 @@ const { loadMessageCommands } = require('./src/Functions/Handlers/Handler');
 (async () => {
     const Discord = require('discord.js')
     require('dotenv').config()
-    const Config = require('./Config');
+    const Config = require('./Configuration/settings');
     const path = __dirname
     const client = new Discord.Client(
         {
